@@ -81,7 +81,12 @@
 
                 resultElement.innerText = inputElement.value.toLowerCase()
             }
-            
+            function charCount(){
+                const inputElement =document.getElementById("input-text")
+                const resultElement =document.getElementById("result")
+
+                resultElement.innerText = `total characters:${inputElement.value.length}`
+            }
             
             
             
