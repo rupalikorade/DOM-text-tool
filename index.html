@@ -87,7 +87,12 @@
 
                 resultElement.innerText = `total characters:${inputElement.value.length}`
             }
-            
+            function wordCount(){
+                const inputElement =document.getElementById("input-text")
+                const resultElement =document.getElementById("result")
+
+                resultElement.innerText = `total words :${inputElement.value.split(" ").length}`
+            }
             
             
             
